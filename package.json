@@ -1,0 +1,29 @@
+{
+  "name": "vue-tree",
+  "description": "Vue.js tree structure visualizer",
+  "author": "Timotej Avsec",
+  "version": "0.0.1",
+  "private": false,
+  "main": "./dist/index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "bili": "^4.10.1",
+    "rollup": "^1.17.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
